@@ -24,6 +24,11 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <!-- Scripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -45,38 +50,38 @@
 <div class="container main">
   <div class="row">
       <div class="four columns portfolio">
-        <img src="images/backpacker.jpg">
+        <a class="image-link" href="images/backpacker.jpg"><img src="images/backpacker.jpg"></a>
         <!-- <a data-flickr-embed="true"  href="http://phlint.com/index.php#contact" title="Phlint_Footer"><img class="img-responsive" src="https://farm6.staticflickr.com/5659/23073297766_1b4ef58ea0_z.jpg" width="640" height="195" alt="footer"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> -->
       </div>
       <div class="four columns portfolio">
-        <img src="images/desert_cycle.jpg">
+        <a class="image-link" href="images/desert_cycle.jpg"><img src="images/desert_cycle.jpg"></a>
       </div>
       <div class="four columns portfolio">
-        <img src="images/italy_bikes.jpg">
+        <a class="image-link" href="images/italy_bikes.jpg"><img src="images/italy_bikes.jpg"></a>
       </div>
   </div>
 
   <div class="row">
       <div class="four columns portfolio">
-        <img src="images/on_safari.jpg">
+        <a class="image-link" href="images/on_safari.jpg"><img src="images/on_safari.jpg"></a>
       </div>
       <div class="four columns portfolio">
-        <img src="images/overlook_mtn.jpg">
+        <a class="image-link" href="images/overlook_mtn.jpg"><img src="images/overlook_mtn.jpg"></a>
       </div>
       <div class="four columns portfolio">
-        <img src="images/paris_couple.jpg">
+        <a class="image-link" href="images/paris_couple.jpg"><img src="images/paris_couple.jpg"></a>
       </div>
   </div>
 
   <div class="row" style="margin-bottom: 10%;">
       <div class="four columns portfolio">
-        <img src="images/single_rider.jpg">
+        <a class="image-link" href="images/single_rider.jpg"><img src="images/single_rider.jpg"></a>
       </div>
       <div class="four columns portfolio">
-        <img src="images/sunset_beach.jpg">
+        <a class="image-link" href="images/sunset_beach.jpg"><img src="images/sunset_beach.jpg"></a>
       </div>
       <div class="four columns portfolio">
-        <img src="images/toes_sand.jpg">
+        <a class="image-link" href="images/toes_sand.jpg"><img src="images/toes_sand.jpg"></a>
       </div>
   </div>
 </div> <!-- End container -->
@@ -112,5 +117,13 @@
 </footer>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- Magnific Popup core JS file -->
+<script src="scripts/jquery.magnific-popup.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.image-link').magnificPopup({type:'image'});
+  });
+</script>
 </body>
 </html>
