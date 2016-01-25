@@ -123,5 +123,11 @@ ul.social li.linkedin a:hover {
   color: rgb(0,123,182);
 }
 
+p.copyright {
+  text-align: center;
+  color: #666;
+  font-size: 1em;
+}
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
